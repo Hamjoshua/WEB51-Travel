@@ -1,0 +1,50 @@
+body {
+    src: url("fonts/Roboto/static");
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 14px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"100;
+}
+
+@font-face{
+    font-family: "Changa_One";
+    src: url('fonts/Changa_One/ChangaOne-Regular.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+:is(h1, h2, h3, h4, .strong-line) {
+    font-family: "Changa_One", sans-serif;
+    font-weight: 100;
+}
+
+.focused{
+    color: #8A53FF !important;
+}
+
+.header-element {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-element-container > a > img{
+    width: 16px;
+    height: 16px;
+}
+
+.header-element .active {
+    color: #8A53FF;
+}
+
+.header-element-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-link {
+
+}
