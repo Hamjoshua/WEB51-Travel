@@ -23,3 +23,17 @@ body {
         "wdth"100;
     margin: 0px;
 }
+
+.recommended {
+    display: flex;
+    padding: 107px 140px 140px 107px;
+}
+
+.recommended>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}

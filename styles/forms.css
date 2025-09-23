@@ -14,7 +14,7 @@
 .video-button {
     border: 0px;
     background-color: rgba(0, 0, 0, 0);
-    color: black;
+    padding: 0%;
     display: flex;
     align-items: center;
 }
@@ -24,8 +24,43 @@
     color: #7e43fe;
 }
 
+.video-button.bright {
+    color: #8A53FF;
+}
+
 .video-button::before {
-    content: url("../src/profile.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cdb6ff;
     position: relative;
     margin-right: 10px;
+}
+
+button.video-button::before {
+  content: "\25B6";
+  position: relative;
+  width: 30px;
+  height: 30px;
+  color: #8A53FF;
+}
+
+button.video-button.bright::before {  
+  color: white;
+}
+
+.video-button.bright::before{
+    background-color: #8A53FF;
+}
+
+.test{
+  content: "\25B6";
+  position: relative;
+  width: 20px;
+  height: 20px;
+color: #ff1818;
 }
