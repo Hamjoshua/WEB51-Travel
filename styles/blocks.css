@@ -26,7 +26,7 @@ body {
 
 .recommended {
     display: flex;
-    padding: 107px 140px 140px 107px;
+    padding: 107px 140px 107px 140px;
 }
 
 .recommended>div {
@@ -36,4 +36,17 @@ body {
     align-content: center;
     justify-content: center;
     padding: 10px;
+}
+
+.countries {
+    padding: 40px 140px 40px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countries>div {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
 }
