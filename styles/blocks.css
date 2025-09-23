@@ -14,13 +14,7 @@ footer {
 }
 
 body {
-    src: url("../fonts/Roboto/static");
     font-family: 'Roboto', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 14px;
-    font-style: normal;
-    font-variation-settings:
-        "wdth"100;
     margin: 0px;
 }
 
@@ -49,4 +43,25 @@ body {
     display: flex;
     gap: 20px;
     flex-direction: row;
+}
+
+.recall {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recall>form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 5px;
+    justify-content: baseline;
+}
+
+.recall>form>h4{
+    margin: 0px;
 }
