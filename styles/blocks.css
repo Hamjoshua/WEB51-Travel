@@ -1,0 +1,114 @@
+header {
+    z-index: 2;
+    top: 0px;
+    position: sticky;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 119px;
+    box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 120px;
+    font-size: 16px;
+    color: gray;
+    background-color: #e1e1e1;
+}
+
+footer>div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+body {
+    color: #434343;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.welcome {
+    min-height: 70vh;
+}
+
+.welcome>div {
+    display: flex;
+    padding: 140px 90px 40px 120px;
+    width: 40%;
+    flex-direction: column;
+}
+
+.recommended {
+    display: flex;
+    gap: 30px;
+    padding: 107px 140px 107px 140px;
+}
+
+.recommended-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.countries {
+    padding: 40px 140px 40px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recall {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recall>form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 5px;
+    justify-content: baseline;
+}
+
+.recall>form>h4{
+    margin: 0px;
+}
+
+.blogs {
+    padding: 46px 258px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blogs>div{
+    position: relative;
+}
+
+.recents {
+    padding: 40px 140px 40px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recents>div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.recents>div>div {
+    flex: 1
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="src/icon.jfif">
+    <title>
+        Home Page
+    </title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/blocks.css">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/forms.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="logo-link header-element"
+                href="https://www.figma.com/design/xC3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel--Community-?node-id=0-1&p=f&t=BmGCtfsXvHK8n2m9-0">
+                <img src="src/talking.png" alt="logo">
+                <div class="strong-line focused">Travel</div>
+            </a>
+        </div>
+        <div class="header-element-container">
+            <a href="main.html" class="header-element focused">Home</a>
+            <a href="blogs.html" class="header-element">Story</a>
+            <a href="#" class="header-element">Gallery</a>
+            <a href="#" class="header-element">Contact Us</a>
+            <hr class="vertical-line" />
+            <a href="#" class="focused" style="margin-top: 5px;">
+                <img src="src//search.png" alt="search">
+            </a>
+            <a href="#" class="focused" style="margin-top: 5px;">
+                <img src="src//profile.png" alt="profile">
+            </a>
+        </div>
+    </header>
+
+    <section class="welcome center-image-div">
+        <img class="center-image" src="src/image91.png" alt="background">
+        <div>
+            <h1>
+                <span class="focused">Let's talk</span>
+                about your next trip!
+            </h1>
+            <span class="just-text bigger">Share your favourite travel destination and
+                we will feature it in our next blog
+            </span>
+
+            <div class="horizontal" style="margin-top: 30px;">
+                <button class="simple-button">Share your stories</button>
+                <button class="video-button">Watch some highlights</button>
+            </div>
+
+            <div class="test"></div>
+        </div>
+
+    </section>
+
+    <section class="recommended">
+        <div class="video-container">
+            <video class="rounded responsive-image" src="src/ohhey.mp4" onloadstart="this.volume=0.3" poster="src/swiss-location.png" controls></video>            
+        </div>
+        <div class="recommended-div">
+            <span class="under-h-text">FEATURED DESTINATION</span>
+            <h2>Our swiss adventure blog</h2>
+            <span class="just-text">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland
+                during the
+                pandemic? Our blog might help!</span>
+            <div class="mt">
+                <button class="video-button bright">Watch now</button>
+            </div>
+        </div>       
+    </section>
+
+    <section class="countries">
+        <!--video here-->
+        <span class="under-h-text">Join our adventures</span>
+        <h2>Discover the world with us</h2>
+
+        <div class="image-fair-container">
+            <div class="country-block">
+                <img alt="country" src="src/country1.png" class="rounded">
+                <h4>Iceland</h4>
+                <a class="country-link" href="#">Discover</a>
+            </div>
+            <div class="country-block">
+                <img alt="country" src="src/country2.png" class="rounded">
+                <h4>Italy</h4>
+                <a class="country-link" href="#">Discover</a>
+            </div>
+            <div class="country-block">
+                <img alt="country" src="src/country3.png" class="rounded">
+                <h4>Dubai</h4>
+                <a class="country-link" href="#">Discover</a>
+            </div>
+            <div class="country-block">
+                <img alt="country" src="src/country4.png" class="rounded">
+                <h4>Patagonia</h4>
+                <a class="country-link" href="#">Discover</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="recall center-image-div">
+        <img class="center-image" src="src/join-bg-community.png" alt="join community">
+        <span class="under-h-text">Let's build a community</span>
+        <h2>Join our next destination</h2>
+        <form>
+            <h4>Share your travels</h4>
+            <span class="just-text">Suggest a new travel destination that you want to see and we will feature it in our
+                blog.</span>
+            <input type="text" placeholder="Destination name">
+            <input type="text" placeholder="Country of Destination">
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="Shooting category">
+            <textarea rows="4" cols="50" placeholder="Describe what kind of photos you want to focus on"></textarea>
+            <button class="simple-button" onclick="alert('Thanks for share!')">Submit</button>
+        </form>
+    </section>
+
+    <section class="recents">
+        <span class="under-h-text">Catch up to our posts</span>
+        <h2>Recent story entries</h2>
+        <div>
+            <div class="recent-story-full">
+                <img alt="" src="src/recent1.jpg" class="rounded">
+                <div>
+                    <div>
+                        <h4>Zermatt, Switzerland</h4>
+                        <span class="just-text smaller">Marvel on the beauty of the iconic Matterhorn. Find the best
+                            places to
+                            stay that has the best views of this peak...</span>
+                    </div>
+                    <button class="video-button"></button>
+                </div>
+            </div>
+            <div class="recent-story-short-container">
+                <div class="recent-story-short rounded">
+                    <img class="rounded" src="src/recent2.jpg" alt="">
+                    <div>
+                        <h4>Tuscany, Italy</h4>
+
+                        <div class="hide-text">
+                            <span class="just-text smaller hide">The amazing Tuscany is home to famous Renaissance art
+                                and architecture and a vast scenic landscape.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-story-short rounded">
+                    <img class="rounded" src="src/recent3.jpg" alt="">
+                    <div>
+                        <h4>Tuscany, Italy</h4>
+
+                        <div class="hide-text">
+                            <span class="just-text smaller hide">The amazing Tuscany is home to famous Renaissance art
+                                and architecture and a vast scenic landscape.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-story-short rounded">
+                    <img class="rounded" src="src/recent4.jpg" alt="">
+                    <div>
+                        <h4>Tuscany, Italy</h4>
+
+                        <div class="hide-text">
+                            <span class="just-text smaller hide">The amazing Tuscany is home to famous Renaissance art
+                                and architecture and a vast scenic landscape.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2022, Talking Travel. All Rights Reserved.</p>
+        <div>
+            <p>Home</p>
+            <p>Blogs</p>
+            <p>Gallery</p>
+            <p>Contact us</p>
+        </div>
+    </footer>
+</body>
+</!DOCTYPE>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="src/icon.jfif">
+    <title>
+        Home Page
+    </title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/blocks.css">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/forms.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a class="logo-link header-element"
+                href="https://www.figma.com/design/xC3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel--Community-?node-id=0-1&p=f&t=BmGCtfsXvHK8n2m9-0">
+                <img src="src/talking.png" alt="logo">
+                <div class="strong-line focused">Travel</div>
+            </a>
+        </div>
+        <div class="header-element-container">
+            <a href="main.html" class="header-element">Home</a>
+            <a href="blogs.html" class="header-element focused">Story</a>
+            <a href="#" class="header-element">Gallery</a>
+            <a href="#" class="header-element">Contact Us</a>
+            <hr class="vertical-line" />
+            <a href="#" class="focused" style="margin-top: 5px;">
+                <img src="src//search.png" alt="search">
+            </a>
+            <a href="#" class="focused" style="margin-top: 5px;">
+                <img src="src//profile.png" alt="profile">
+            </a>
+        </div>
+    </header>
+
+    <section class="blogs">
+        <div>
+            <span class="under-h-text">Popular destination</span>
+            <h1>Hello, Switzerland!</h1>
+            <div class="author-block">
+                <img alt="big mge bro is watchin u" src="src/icon.jfif">
+                <div>
+                    <span class="author-block-name">John Doe</span>
+                    <span class="author-block-role">MGE Soldier / Ass destroyer</span>
+                </div>
+            </div>
+            <div class="video-container">
+                <video class="rounded responsive-image" onloadstart="this.volume=0.3" poster="src/swiss-location.png" controls
+                    src="src/ohno.MP4"></video>
+            </div>
+        </div>
+
+        <div>
+            <h2>Our swissen story</h2>
+            <span>Location location location! Zermatt Switzerland offers majestic landscapes that cannot be seen
+                elsewhere. The Matterhorn for example. This peak is a sight to behold and seeing it upclose is more
+                magical that we’ve ever imagined. ‘Want to enjoy a nice and cozy swiss breakfast! Well, Zermatt will
+                never fail you.</span>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-image-part">
+                <img alt="gallery" src="src/gallery1.jpg" class="">
+                <div>
+                    <img alt="gallery" src="src/gallery2.jpg" class="">
+                    <img alt="gallery" src="src/gallery3.jpg" class="">
+                </div>
+            </div>
+            <div class="gallery-text-part">
+                <span class="phrase-text">One of the best hikes we’ve done so far...</span>
+                <p>As one of the alpine countries, landlocked Switzerland with her mountains has to compete not only
+                    with her neighbours but with other destinations. There are, e.g., no coastal resorts. </p>
+                <p>The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes in
+                    a relatively small space.</p>
+                <button class="simple-button">View full gallery</button>
+            </div>
+        </div>
+
+        <span>
+            The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes in a
+            relatively small space, offering many possibilities for various activities all the year round, in all
+            seasons, although primarily in summer and winter. The offers of nature as well as culture are manifold, but
+            unfortunately price levels throughout the country are high, and this can discourage many people from
+            visiting. Despite this major drawback, millions of visitors from all over the world arrive(d) every year.
+        </span>
+
+        <div>
+            <h2>Highlights</h2>
+            <div class="image-fair-container">
+                <div>
+                    <img alt="country" src="src/high1.jpg" class="rounded">
+                    <span class="author-block-role">The barns built in the 13th and 14th century</span>
+                </div>
+                <div>
+                    <img alt="country" src="src/high2.jpg" class="rounded">
+                    <span class="author-block-role">Riding the the amazing Bernina Express</span>
+                </div>
+                <div>
+                    <img alt="country" src="src/high3.jpg" class="rounded">
+                    <span class="author-block-role">The Matterhorn glacier cable car ride</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            <p>Disclaimer</p>
+            <p>The COVID-19 pandemic has dealt a severe blow to the tourism business in Switzerland. Although it is a
+                minor position in the Swiss export balance, it is nevertheless of considerable importance for those
+                regions of the country that attract domestic and foreign visitors. As a consequence of the lockdown
+                measures, combined with close borders and travel bans, tourism collapsed and only briefly and partly
+                recovered in summer. Its future is uncertain and depends on people’s (future guests’) attitudes and
+                decisions as much as on the economy, political measures and, of course, the progress of the pandemic.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="recall center-image-div">
+        <img class="center-image" src="src/join-bg-community.png" alt="join community">
+        <span class="under-h-text">Let's build a community</span>
+        <h2>Join our next destination</h2>
+        <form>
+            <h4>Share your travels</h4>
+            <span class="just-text">Suggest a new travel destination that you want to see and we will feature it in our
+                blog.</span>
+            <input type="text" placeholder="Destination name">
+            <input type="text" placeholder="Country of Destination">
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="Shooting category">
+            <textarea rows="4" cols="50" placeholder="Describe what kind of photos you want to focus on"></textarea>
+            <button class="simple-button" onclick="alert('Thanks for share!')">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2022, Talking Travel. All Rights Reserved.</p>
+        <div>
+            <p>Home</p>
+            <p>Blogs</p>
+            <p>Gallery</p>
+            <p>Contact us</p>
+        </div>
+    </footer>
+</body>
+</!DOCTYPE>

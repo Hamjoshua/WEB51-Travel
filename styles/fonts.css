@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Changa_One";
+    src: url('../fonts/Changa_One/ChangaOne-Regular.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("../fonts/Roboto/static");    
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 14px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"100;    
+}
