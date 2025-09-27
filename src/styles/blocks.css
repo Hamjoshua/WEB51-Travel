@@ -15,12 +15,13 @@ footer {
     justify-content: space-between;
     padding: 32px 120px;
     font-size: 16px;
-    color: gray;
+    color: gray !important;
     background-color: #e1e1e1;
 }
 
 footer>div {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 15px;
 }

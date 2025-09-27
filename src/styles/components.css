@@ -323,3 +323,10 @@
 .video-container video {
     object-fit: fill;
 }
+
+.footer-link {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+}
