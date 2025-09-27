@@ -1,4 +1,4 @@
-.simple-button{
+.primary-button{
     background-color: #8A53FF;
     color: white;
     padding: 12px 18px;
@@ -6,7 +6,7 @@
     border-radius: 4px;
 }
 
-.simple-button:hover {
+.primary-button:hover {
     background-color: #7e43fe;
     cursor: pointer;
 }
@@ -24,7 +24,7 @@
     color: #7e43fe;
 }
 
-.video-button.bright {
+.video-button.bright-button {
     color: #8A53FF;
 }
 
@@ -58,18 +58,10 @@ button.video-button::before {
   color: #8A53FF;
 }
 
-button.video-button.bright::before {  
+button.video-button.bright-button::before {  
   color: white;
 }
 
-.video-button.bright::before{
+.video-button.bright-button::before{
     background-color: #8A53FF;
-}
-
-.test{
-  content: "\25B6";
-  position: relative;
-  width: 20px;
-  height: 20px;
-color: #ff1818;
 }
